@@ -1,0 +1,21 @@
+# Node.js dependencies
+/node_modules/
+
+# Ignore actual .env files that contain sensitive data
+.env
+.env.*
+
+# Track the example file for documentation
+!.env.example
+
+# Optional dependency files (like Yarn, pnpm)
+.pnpm-debug.log
+yarn.lock
+
+# Build output
+/dist/
+build/
+
+# Generated directories/files (e.g., documentation, compiled files)
+*.log
+*.swp            # vim swap files
