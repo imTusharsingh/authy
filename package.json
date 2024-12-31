@@ -1,15 +1,32 @@
 {
-  "name": "authy",
+  "name": "@tushar/authy",
   "version": "1.0.0",
-  "description": "",
+  "description": "A simple authentication library for managing tokens and middleware in Node.js applications.",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "echo \"Build step for library\"",
+    "prepublishOnly": "npm run build"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "authentication",
+    "jwt",
+    "tokens",
+    "middleware",
+    "nodejs",
+    "express"
+  ],
+  "author": "Tushar Singh <rajputtushar309@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "jsonwebtoken": "^9.0.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imTusharsingh/authy.git"
+  },
+  "bugs": {
+    "url": "https://github.com/imTusharsingh/authy/issues"
+  },
+  "homepage": "https://github.com/imTusharsingh/authy#readme"
 }
