@@ -1,5 +1,5 @@
 {
-  "name": "@tushar/authy",
+  "name": "@imtushar/authy",
   "version": "1.0.0",
   "description": "A simple authentication library for managing tokens and middleware in Node.js applications.",
   "main": "src/index.js",
